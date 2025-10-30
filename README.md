@@ -1,57 +1,57 @@
 # Template Mod
 
-Template Mod es un mod de [Fabric](https://fabricmc.net/) para **Minecraft 1.21.4**, incluye implementaciones básicas de bloques, entidades, ítems y grupos de ítems y está pensado como una **plantilla modular para experimentación**, que puedes usar como base para tus propios mods en Fabric.  
+Template Mod is a [Fabric](https://fabricmc.net/) mod for **Minecraft 1.21.4**. It includes basic implementations of blocks, entities, items, and item groups, and is designed as a **modular template for experimentation**, which you can use as a base for your own Fabric mods.  
 
 ---
 
-## Instrucciones
+## Instructions
 
-Sigue estos pasos para generar el `.jar` del mod:
+Follow these steps to generate the mod `.jar` file:
 
-1. **Clona y accede al repositorio**
+1. **Clone and access the repository**
       ```bash
       git clone https://github.com/RulsOfficial/minecraft-fabric-templatemod
       minecraft-fabric-templatemod
       ```
 
-2. **Abre el proyecto**
+2. **Open the project**
 
-   Puedes abrirlo en tu IDE preferido (IntelliJ IDEA, VS Code, Eclipse) o directamente usar el terminal.
+   You can open it in your preferred IDE (IntelliJ IDEA, VS Code, Eclipse) or directly use the terminal.
 
-4. **Compila el jar**
+4. **Build the jar**
 
-     En Linux/macOS:
+     On Linux/macOS:
    
       ```bash
       ./gradlew build
       ```
    
-      En Windows:
+      On Windows:
    
       ```bash
       gradlew.bat build
       ```
 
-5. **Encuentra el jar**
+5. **Find the jar**
 
-   Una vez compilado, el archivo estará en:
+   Once built, the file will be located at:
    
       ```
       build/libs/TemplateMod-<version>.jar
       ```
 ---
 
-## Licencia
+## License
 
-Este proyecto está bajo la licencia:
+This project is licensed under:
 
 **[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)**.
 
-Esto significa que:
+This means that:
 
-* Puedes compartir y modificar el código.
-* No puedes usarlo con fines comerciales.
-* Si lo adaptas, debes compartirlo bajo la misma licencia.
-* Debes dar atribución al autor original.
+* You can share and modify the code.
+* You cannot use it for commercial purposes.
+* If you adapt it, you must share it under the same license.
+* You must give attribution to the original author.
 
 ---
